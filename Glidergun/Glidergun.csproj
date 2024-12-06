@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.3.1-alpha.12</Version>
+    <Authors>Jiro Shirota</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSnakes.Runtime" Version="1.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="python.py" />
+    <AdditionalFiles Include="requirements.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="python.py" />
+    <EmbeddedResource Include="requirements.txt" />
+  </ItemGroup>
+
+</Project>

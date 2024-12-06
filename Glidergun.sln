@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glidergun", "Glidergun\Glidergun.csproj", "{3B6C9425-50C8-401C-B72F-EB8D1C667FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{5A7EDBFF-F784-4A26-B3DC-20FCB6511F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{FB976C76-68FA-4B8B-8501-6EDDCC616FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B6C9425-50C8-401C-B72F-EB8D1C667FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6C9425-50C8-401C-B72F-EB8D1C667FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6C9425-50C8-401C-B72F-EB8D1C667FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6C9425-50C8-401C-B72F-EB8D1C667FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7EDBFF-F784-4A26-B3DC-20FCB6511F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7EDBFF-F784-4A26-B3DC-20FCB6511F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7EDBFF-F784-4A26-B3DC-20FCB6511F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7EDBFF-F784-4A26-B3DC-20FCB6511F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB976C76-68FA-4B8B-8501-6EDDCC616FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB976C76-68FA-4B8B-8501-6EDDCC616FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB976C76-68FA-4B8B-8501-6EDDCC616FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB976C76-68FA-4B8B-8501-6EDDCC616FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

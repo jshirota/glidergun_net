@@ -1,0 +1,6 @@
+*/bin
+*/obj
+.output
+__pycache__
+Notebooks/python.py
+Notebooks/requirements.txt
